@@ -1,0 +1,104 @@
+.main{
+    min-width:1349px;
+    width:1349px;
+    margin:0 auto;
+}
+div.login{
+    margin-top:30px;
+    width: 100%;
+    height:500px;
+    background-image: url(../img/bg_img.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    clear: both;
+    position: relative;
+}
+.login_content div:first-child{
+    margin:20px 0 30px 44px;
+}
+.login_content div:first-child span:last-child{
+    color:#005bab;
+}
+.login_content div:first-child span{
+    padding: 0 10px;
+    font-size: 22px;
+}
+.login_content div:nth-child(2),.login_content div:nth-child(3){
+    height:60px;
+    position: relative;
+}
+.login_content div:nth-child(2) img{
+    position: absolute;top:5px;left:57px;
+}
+.login_content div:nth-child(3) img{
+    position: absolute;top:5px;left:57px;
+}
+.login_content div:nth-child(2) p,.login_content div:nth-child(3) p{
+    margin-left: 50px;
+    font-size: 14px;
+    color:#e53d4a;
+}
+
+.login_content{
+    width:380px;
+    height:380px;
+    background:#fceced;
+    float:right;
+    margin-right:40px;
+    margin-top:60px;
+}
+.login_content div:nth-child(2) input,.login_content div:nth-child(3) input{
+    margin-left:45px;
+    border-radius:30px;
+    width:288px;
+    height:38px;
+    outline: none;
+    border:1px solid #bcbbba;
+    text-indent: 45px;
+    font-size: 14px;
+    position: relative;
+}
+.login_content div:nth-child(4) input{
+    border-radius:20px;
+    height:40px;
+    width:288px;
+    outline: none;
+    border:1px solid #d3d1d0;
+    margin-left:45px;
+    background:#000;
+    color:#fff;
+}
+.login_content div:nth-child(4) p{
+    margin-left: 53px;
+    width:270px;
+}
+.login_content div:nth-child(4) a{
+    font-size:14px;
+    color:#000;
+}
+.login_content div:nth-child(5){
+    margin-left: 42px;
+}
+.login_footer ul,.text-center{
+    margin-top: 30px;
+}
+.login_footer ul li{
+    padding: 0 10px;
+}
+.footer-context a{
+    color:#000;
+}
+.footer-context a:hover{
+    text-decoration: none;
+}
+#success{
+    position: absolute;
+    top:150px;
+    left:500px;
+    width:400px;
+    height:200px;
+    line-height: 200px;
+    text-align: center;
+    background: #fff;
+    display: none
+}

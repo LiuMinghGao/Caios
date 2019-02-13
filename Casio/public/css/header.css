@@ -1,0 +1,163 @@
+.container-fluid {
+    width: 100%;
+    min-width: 1349px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header1{
+    width:100%;
+    height:40px;
+}
+a{
+    text-decoration: none !important;
+}
+.my_list1 ul li{
+    float: left;
+    margin-left:25px;
+    margin-top:8px;
+}
+
+.my_list2 ul li{
+    float: left;
+    margin-right:28px;
+    margin-top:8px;
+}
+.header1 div ul li a{
+    color:#fff;
+}
+
+.my_list3>ul>li{
+    float: left;
+    /*margin-left:30px;*/
+    /*padding-bottom:25px;*/
+    padding: 25px 18px;
+}
+.my_list3 ul li>a{
+    color:#000;
+    font-weight: bold;
+}
+#header2{
+    z-index: 1000;
+}
+#header2 div input{
+    border-radius:20px;
+    height:33px;
+    width:208px;
+    outline: none;
+    border:1px solid #d3d1d0;
+    margin-top:20px;
+    margin-right:40px;
+    text-indent: 8px;
+    font-size: 12px;
+}
+.my_size{
+    font-size:14px;
+}
+.my_menu:hover{
+    border-bottom:2px solid #000;
+}
+.menu{
+    width:1349px;
+    height:480px;
+    overflow: hidden;
+    position: absolute;left:0;top:76px;
+    min-width: 1330px;
+    z-index: 1000;
+    display: none;
+    border-top:1px solid #eee;
+    background: #fff;
+}
+.menu div{
+    float: left;
+    margin-left:40px;
+    margin-top:15px;
+}
+.line3{
+    display: block;
+    border-top:2px solid #000;
+    width:16px;
+}
+.option{
+    width:142px;
+}
+.option li{
+    margin-top:8px;
+}
+.option li:first-child,.jinbiao{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.option li a{
+    font-size:10px !important;
+}
+.option li a:hover{
+    text-decoration: none;
+}
+.my_list1 li a,.my_list2 li a{
+    font-size:13px;
+}
+.my_list3 li a{
+    font-size: 15px;
+}
+
+.my_title{
+    margin-top:0 !important;
+}
+.main{
+    width:1349px;
+    margin:0 auto;
+    position: relative;
+}
+.mybg{
+    background: #000;
+}
+#myfixed{
+    z-index: 100;
+    width:35px;
+    height:588px;
+    background:#000;
+    position: fixed;top:26px;right:0;
+    display: none;
+}
+.header_my_list{
+    width:35px;
+    height:180px;
+    background: red;
+    margin-top:100px;
+    color:red !important;
+}
+.top-triangle{
+    display: inline-block;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #fff;
+    margin-left: 12px;
+}
+.my_shuzi{
+    color:red;
+    width:27px;
+    height:25px;
+    background: #fff;
+    margin-left:4px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+    
+}
+.my_list3 a:hover{
+    color:#000;
+}
+.header_my_list p{
+    margin-bottom: 0;
+}
+#myfixed ul:last-child{
+    margin-top: 80px;
+}
+.myinp{
+    position: relative;
+}
+#header2 div:last-child>img{
+    position: absolute;top:25px;left:175px
+}

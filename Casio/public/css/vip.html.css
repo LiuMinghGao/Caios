@@ -1,0 +1,144 @@
+.container-fluid {
+    width: 100%;
+    min-width: 1349px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.main{
+    width:1349px;
+    margin:0 auto;
+}
+.vip-bg{
+    background: #f4f4f4;
+    width:100%;
+}
+.pull-left{
+    width:240px;
+    height:460px;
+    background:#fff;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.pull-left-middle{
+    height:225px;
+}
+
+.pull-left-bottom{
+    height:300px;
+    padding: 50px 10px;
+}
+.pull-left-bottom ul,.pull-left-middle ul{
+    margin-top:4px;
+    margin-left:80px;
+}
+.pull-left-middle ul li,.pull-left-bottom ul li{
+    padding:0 10px;
+    border-radius: 20px;
+    width:100px;
+    margin-top:5px;
+}
+.pull-left-middle a,.pull-left-bottom a{
+    color:#595757;
+    font-size: 14px;
+}
+
+.mytitle1{
+    margin-top: 60px;
+    margin-left: 45px;
+}
+
+.container>div{
+    width:1010px;
+    height:460px;
+    position: absolute;
+    top:21px;left:292px;
+    background:#fff;
+}
+.container>.active{
+    z-index:10;
+}
+.mytitle2 p{
+    margin-bottom: 0;
+    font-size: 22px;
+    padding: 10px 10px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.mytabs>.tabs>.active{
+    color:red;
+}
+.xguser{
+    margin-top: 50px;
+    margin-left:330px;
+}
+.xguser div{
+    width:400px;
+    height:45px;
+}
+.xguser input,.user_password input{
+    margin-left: 5px;
+    text-indent: 5px;
+    width:300px;
+    height:33px;
+    outline: none;
+    border:1px solid #bcbbba;
+    font-size: 14px;
+}
+.xguser p:first-child,.user_password p:first-child{
+    margin-bottom: 5px;
+}
+.xguser p:last-child{
+    font-size: 14px;
+    color:red;
+    margin-bottom: 0;
+}
+.xguser button,.user_password button{
+    outline: none;
+    height:38px;
+    width:150px;
+    border:1px solid #bcbbba;
+    background:#000;
+    color:#fff;
+    margin-left:80px;
+    margin-top: 20px;
+}
+.user_password{
+    margin-top: 40px;
+    margin-left:330px;
+}
+.user_password p:last-child{
+    color:red;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.user_password div,.xguser div{
+    height:85px;
+}
+.xguser p,.user_password p{
+    margin-left: 5px;
+}
+.mytx img{
+    width:92px;
+    height:92px;
+    border-radius:50%;
+}
+.mytx div:last-child{
+    margin-left: 20px;
+}
+.userming{
+    margin-top: 30px;
+}
+.userming p{
+    margin-bottom: 0;
+}
+#context0 img{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+#context0 h4{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+

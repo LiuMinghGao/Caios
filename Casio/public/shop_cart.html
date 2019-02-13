@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/shop_cart.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <title></title>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div id="header"></div>
+    <div class="my_main3">
+        <!-- 面包屑-->
+        <div>
+            <ul class="breadcrumb">
+              <li class="breadcrumb-item"><a href=""><img class="mb-1 mr-3" src="img/home-breadcrumb.png" alt=""/>首页</a></li>
+              <li class="breadcrumb-item"><a href="">购物车</a></li>
+            </ul>
+        </div>
+        <!-- 购物流程照片-->
+        <div class="text-center">
+          <img src="img/substep_01.jpg" alt=""/>
+        </div>
+        <!-- 如果购物车空空，让用户去逛逛 -->
+        <div class="shopNull">
+            <div>
+               购物车空空如也，<a href="index.html">去逛逛</a>
+            </div>
+        </div>
+        <!-- 购物车内容-->
+        <div class="my_mar">
+            <div class="my_shop"></div>
+            <!-- 复选按钮-->
+            <div class="pitch_on">
+                <ul class="list-unstyled clearfix">
+                    <li><input class="chbAll" type="checkbox"/><lable>全选</lable></li>
+                    <li class="deleteAll">删除全部商品</li>
+                </ul>
+            </div>
+            <!-- 商品信息-->
+            <div class="message">
+                <table>
+                    <thead>
+                       <tr>
+                            <td><span class="ml-2">全选</span></td>
+                            <td>商品图片</td>
+                            <td>商品名称</td>
+                            <td>单价(元)</td>
+                            <td>数量</td>
+                            <td>金额(元)</td>
+                            <td>操作</td>
+                        </tr>
+                    </thead>
+                    <tbody id="carcontent">
+                       <!-- <tr>
+                            <td>&nbsp;&nbsp;&nbsp;<input type="checkbox"/></td>
+                            <td><img src="img/watch1.png" alt=""/></td>
+                            <td class="font-weight-bold text-dark">2018限量LOV对表 希腊神话主题情侣对表 防水防震运动男女表LOV-18B-4PR（LOV-18B-4PR----）</td>
+                            <td>￥1490.00</td>
+                            <td><button>-</button><input class="tt" type="text" value="1"/><button>+</button></td>
+                            <td>￥1490.00</td>
+                            <td><span>删除</span></td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+            <!-- 总金额-->
+            <div class="my_aggregate">
+                <span class="aggregate">订单金额总计:￥0</span>
+            </div>
+            <!-- 结算按钮-->
+            <div class="mybg2 clearfix">
+                <button class="mybtn">结算(0)</button>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/shop_cart.js"></script>  
+<script>
+      
+       //选中商品的价格与数量
+//       if(price.prev().prev().prev().children().prop("checked")){
+//           total+=price.html().slice(1).toFixed(2)
+//           console.log(total)
+//       }
+
+       /*$("tbody :checkbox").click(function(){
+           var i=parseInt($(this).parent().next().next().next().next().next().html().slice(1));
+           //选中商品数量
+           var quantity=parseInt($(this).parent().next().next().next().next().children("input").val());
+           if($(this).prop("checked",true)){
+               console.log(i,quantity);
+               total+=i;
+               quantitys+=quantity;
+               $(".aggregate").html(`订单金额总计:￥${total.toFixed(2)}`);
+               $(".mybtn").html(`结算(${quantitys})`)
+           }
+       })*/
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+.container-fluid {
+    width: 100%;
+    min-width: 1349px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main{
+    margin:0 auto;
+    width:1349px;
+}
+.my_shopping ul li a{
+    color:#000;
+    transition: 1s;
+}
+.my_shopping ul li a:hover{
+    transform:scale(1.2);
+}
+.my_bg1{
+    background:#f4f4f4;
+    width:1349px;
+}
+
+.my_height{
+    height:696px;
+
+}
+.product_big{
+    background:#fff;
+    width:480px;
+    height:696px;
+    margin-left:35px;
+}
+.product_big img:hover{
+    position: relative;right:3px;bottom:3px;
+}
+.new{
+    width:64px;
+}
+.my_img3{
+    margin-left:40px;
+}
+.product_one div:nth-child(4),.product_one div:nth-child(5),.product_one div:nth-child(6){
+    margin-top: 15px;
+}
+
+
+.product_small{
+    float: left;
+    width:250px;
+    height:340px;
+    background:#fff;
+    font-size:14px;
+    margin-left:14px;
+}
+
+
+.product_small a img,.product_big a img{
+    transition: 1s;
+}
+.product_small a img:hover{
+    transform:scale(1.05);
+}
+p{
+    margin:0px;
+}
+a{
+    color:#000;
+}
+a:hover{
+    color:#000;
+    text-decoration: none;
+}
+.my_nav p a,b{
+    margin-left:32px;
+    font-size:24px;
+    color:#3e3a39;
+}
+.my_nav p{
+   padding-top:68px;
+}
+.my_nav{
+    height:160px;
+    background:#f4f4f4;
+
+}
+.my_club{
+    height:560px;
+
+}
+.line{
+    display: block;
+    width:72px;
+    border-top:2px solid #000;
+    margin-left:176px;
+}
+.integral,.try_out{
+    width: 416px;
+    height:369px;
+    text-align: center;
+}
+.integral{
+    background-image:url("../img/huaban.jpg");
+    background-repeat:no-repeat ;
+    background-size:100%;
+    margin-left:30px;
+}
+.try_out{
+    background-image:url("../img/leqi.jpg");
+    background-repeat:no-repeat ;
+    background-size:100%;
+    margin-left: 20px;
+}
+.vip{
+    margin-left: 20px;
+}
+.right_img,.right_img2{
+    width:413px;
+    height:176px;
+}
+.right_img{
+    background-image:url("../img/book.jpg");
+    background-repeat:no-repeat ;
+    background-size:100%;
+}
+.right_img2{
+    margin-top:16px;
+    background-image:url("../img/huiyuan.jpg");
+    background-repeat:no-repeat ;
+    background-size:100%;
+}
+.content{
+    height:565px;
+    background:#f4f4f4;
+}
+.content1,.content2,.content3{
+    width:416px;
+    height:304px;
+    background: #fff;
+    margin-left:24px;
+    border-radius:10px;
+}
+.content1 img,.content2 img,.content3 img{
+    border-radius:10px;
+}
+.headilne{
+    height:640px;
+}
+.headilne p,.headilne h4{
+    margin-left:10px;
+}
+
+.headilne div:nth-child(2){
+    width:415px;
+    margin-left:40px;
+    margin-top: 20px;
+}
+
+.headilne div:nth-child(3),.headilne div:nth-child(4){
+    width:415px;
+    margin-top:20px;
+    margin-left: 20px;
+}
+.line2{
+    display: block;
+    width:384px;
+    border-top:1px solid #000;
+    margin-left:12px;
+}
+#slider{
+    width:100%;
+    height:560px;
+    position: relative;
+}
+#slider>a{
+    position: absolute;top:0;left:0;
+    opacity: 0;
+    width:100%;
+}
+#slider>a.show{
+    opacity: 10;
+    width:100%;
+}
+
+
+
+
+
+

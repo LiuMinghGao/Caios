@@ -1,0 +1,135 @@
+.register{
+    width:100%;
+    height:740px;
+    background:#f4f4f4;
+}
+.logo a img{
+    margin:30px 40%;
+}
+.register_content{
+    width:580px;
+    height:483px;
+    background:#fff;
+    margin:40px auto;
+    position: relative;
+}
+.register_header{
+    margin-top:35px;
+    font-size:24px;
+    text-align: center;
+    color:#005bab;
+}
+.register_input{
+    height:105px;
+    position: relative;
+}
+.register_input>img{
+    position: absolute;top:52px;left:115px;
+}
+.register_input3{
+    height:65px;
+    position: relative;
+}
+.register_input3>img{
+    position: absolute;top:12px;left:120px;
+}
+.register_input input{
+    margin-top:45px;
+    margin-left:105px;
+    border-radius:30px;
+    width:368px;
+    height:40px;
+    outline: none;
+    border:1px solid #bcbbba;
+    text-indent: 45px;
+}
+.register_input2 input{
+    margin-left:105px;
+    border-radius:30px;
+    width:240px;
+    height:40px;
+    outline: none;
+    border:1px solid #bcbbba;
+}
+/*.register_button button{*/
+    /*margin-left:20px;*/
+    /*border-radius:30px;*/
+    /*width:112px;*/
+    /*height:40px;*/
+    /*outline: none;*/
+    /*border:1px solid #bcbbba;*/
+    /*background: #ccc;*/
+    /*color:#595757;*/
+    /*position: absolute;top:175px;left:345px;*/
+/*}*/
+
+.register_input p,.register_input2 p,.register_input3 p{
+    margin-bottom:0px;
+    color:red;
+    font-size:15px;
+    margin-left:110px;
+    margin-top:2px;
+}
+.register_input3 input{
+    margin-top:5px;
+    margin-left:105px;
+    border-radius:30px;
+    width:368px;
+    height:40px;
+    outline: none;
+    border:1px solid #bcbbba;
+    text-indent: 45px;
+}
+.register_button1 button{
+    margin-top:5px;
+    border-radius:20px;
+    height:43px;
+    width:368px;
+    outline: none;
+    border:1px solid #d3d1d0;
+    margin-left:105px;
+    background:#595959;
+    color:#fff;
+}
+.register_checkbox{
+    margin-left:110px;
+}
+.check span{
+    color:#ccc;
+    font-size: 14px;
+}
+.register_footer{
+    margin:15px 235px;
+    text-decoration: none;
+    font-size:13px;
+}
+.check a,.register_footer a{
+    color:#005bab;
+}
+.check a{
+    text-decoration: none;
+    font-size:12px;
+}
+.register_footer1 a,a:hover,.register_footer2 a,a:hover{
+    color:#595757;
+    text-decoration: none;
+}
+.register_footer2{
+    text-align: center;
+    color:#595757;
+}
+.my_list ul li a img{
+   padding:0;
+   margin:0;
+}
+
+.my_list ul li a,b{
+    color:#595757;
+}
+.my_list  li {
+    float: left;
+    padding:20px 10px;
+}
+
+
+

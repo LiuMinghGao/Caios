@@ -1,0 +1,285 @@
+.container-fluid {
+    width:100%;
+    min-width: 1349px;
+    padding-right:0;
+    padding-left:0;
+    margin:0 auto;
+}
+.my_header{
+    width:100%;
+    height:110px;
+}
+.main{
+    width:1349px;
+    margin: 0 auto;
+    position: relative;
+}
+.main-1:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.breadcrumb-item a{
+    color:#000;
+}
+.my_footer{
+    width:100%;
+    height:640px;
+}
+.breadcrumb{
+    background-color:#fff;
+    padding-top:0px;
+    margin-bottom:10px;
+    margin-left:120px;
+}
+.dateils-right{
+    float: left;
+    width:560px;
+    height:600px;
+    margin-left:20px;
+}
+.my_left{
+    width:500px;
+    height:600px;
+    margin-left:110px;
+    float: left;
+
+}
+.left-centext{
+    width:500px;
+    height:480px;
+    border:2px solid #f6f6f6;
+}
+.left-centext2{
+    width:500px;
+    height:100px;
+    margin-top:20px;
+}
+.left-centext2 img{
+   border:2px solid #f6f6f6;
+}
+.my-bor{
+    border:2px solid #c11d1d !important;
+}
+.my_left div:first-child img{
+    width:96%;
+}
+.my_font1{
+    font-size: 17px;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","΢���ź�",sans-serif;
+    color:#000 !important;
+    margin-top: 0;
+    margin-left: 0;
+}
+.my_font{
+    font-size: 17px;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","΢���ź�",sans-serif;
+    color:grey;
+}
+.dateils-right p:nth-child(2){
+    background: #eee;
+    width:145px;
+    font-size:14px;
+}
+.dateils-right p:last-child a{
+    color:#00f;
+}
+.my_btn{
+    margin-top:60px;
+}
+.my_btn a:hover{
+    color:#fff;
+}
+.my_btn a{
+    float: left;
+    width:150px;
+    height:50px;
+    line-height:50px;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff !important;
+}
+.my_btn a{
+    background: #000;
+}
+.my_btn a:hover,.my_btn2 a:hover{
+    text-decoration: none;
+}
+.my_btn2{
+   background:#c11d1d !important;
+}
+.my_price{
+    font-size:32px;
+    color:#c11d1d;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","΢���ź�",sans-serif;
+}
+.product-price{
+    background: #f6f6f6;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+.my-input{
+    width:30px;
+}
+.my_aaa p a{
+    color:#000 !important;
+}
+.my_aaa p a:hover{
+    text-decoration: none;
+}
+#demo>ul>li{
+    width:88px;height:88px;
+    border:2px solid #eee;
+}
+#demo>ul>li:first-child{
+    background: url("../img/watch1.png");
+}
+#demo>ul>li:nth-child(2){
+    background: url("../img/watch2.png");
+}
+#demo>ul>li:last-child{
+    background: url("../img/watch3.png");
+}
+#demo>ul>li.active{
+    border: 2px solid #c11d1d;
+}
+.left_advertising{
+    width:310px;
+    margin-top:20px;
+    margin-left:110px;
+    float: left;
+}
+.my_product{
+    width:233px;
+    margin-left:35px;
+}
+.my_price2{
+    font-size:20px;
+    font-weight: bold;
+    color:#c11d1d;
+    text-align:center;
+}
+.my_title{
+    color:#000;
+    font-size:12px;
+}
+a:hover{
+    text-decoration: none;
+    color:#000;
+}
+.right_show{
+    float: left;
+    margin-top:20px;
+    margin-left:10px;
+}
+.my-car{
+    width:790px;
+    height:292px;
+}
+.active{
+    background-color:#c11d1d !important;
+}
+.my_btn3>ul>li{
+    float: left;
+    width:197px;
+    height:50px;
+    line-height: 50px;
+    background:#000;
+    text-align: center;
+}
+.my_btn3>ul>li>a{
+   color:#fff !important;
+}
+.my_img{
+    width:790px;
+    margin-top:80px;
+}
+.my_list{
+    font-size: 16px;
+}
+#demo2 ul li{
+     width:10px;
+     height:10px;
+     margin-left:5px;
+     background: #fff;
+     border-radius: 50%;
+}
+#demo2 ul li.active{
+    background:#c11d1d;
+}
+.my_p{
+    position: relative;
+
+}
+.my_p1,.my_p2,.my_p3{
+    position: absolute;left:0;top:70px;
+    display: none;
+    width:790px;
+}
+.my_p1 input{
+    margin-left:20px;
+    font-size: 10px;
+}
+.my_p2 th{
+    width:340px;
+    height:38px;
+
+}
+.my_p2{
+    color:#595757;
+    font-size: 14px;
+}
+.my_p2 td{
+    width:450px;
+    height:38px;
+}
+.my_background{
+    background:#005bac;
+    padding: 4px;
+}
+.inform p{
+    font-size: 15px;
+    color:gray;
+}
+.inform span{
+    background: grey;
+    color:#fff;
+}
+.my-car>ul{
+    width:2361px;
+    height:290px;
+}
+.my-car>ul>li{
+    float: left;
+}
+.my-car{
+    overflow: hidden;
+}
+.my-car>ul>li>a>img{
+    width:100%;
+}
+.my-p{
+    width:140px !important;
+}
+.myjqimg{
+    width:40px;
+    height:40px;
+}
+.mycall{
+    width:40px;
+    height:40px;
+}
+.mycall>img{
+  width:8%
+}
+.my_btn>a:nth-child(2){
+    margin-left:5px;
+}
+
+
+
+
+
+
