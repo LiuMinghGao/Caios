@@ -127,8 +127,8 @@ function fn(){
                $("tbody :checkbox").prop("checked",$(this).prop("checked"))
                 if($(this).prop("checked")){
                      for(var i=0;i<a.length;i++){
-                          total+=parseInt($(a[i]).html().slice(1));
-                          quantitys+=parseInt($(a[i]).prev().children(":text").val());
+                          total+=parseInt($(a[i]).html().slice(1)*$(a[i]).prev().children(":text").val());
+                     quantitys+=parseInt($(a[i]).prev().children(":text").val());
                      }
                 }else{
                        a=$("tbody :checkbox:not(:checked)").parent().next().next().next().next().next();
@@ -146,12 +146,12 @@ function fn(){
                 if($(this).prop("checked")){
                     for(var i=0;i<a.length;i++){
                     }
-                    total+=parseInt($(this).parent().next().next().next().next().next().html().slice(1));
+                    total+=parseInt($(this).parent().next().next().next().next().next().html().slice(1))*parseInt($(this).parent().next().next().next().next().children("input").val());
                     quantitys+=quantity;
                     $(".mybtn").html(`结算(${quantitys})`);
                     $(".aggregate").html(`订单金额总计:￥${total.toFixed(2)}`);
                 }else{
-                    total-=parseInt($(this).parent().next().next().next().next().next().html().slice(1));
+                    total-=parseInt($(this).parent().next().next().next().next().next().html().slice(1))*parseInt($(this).parent().next().next().next().next().children("input").val());
                     quantitys-=quantity;
                     $(".mybtn").html(`结算(${quantitys})`);
                     $(".aggregate").html(`订单金额总计:￥${total.toFixed(2)}`);

@@ -13,7 +13,7 @@ $(":text").blur(function (){
         $(this).next().next().html("用户名不能为空");
         b=false;
     }else if(!reg.test($(this).val())){
-        $(this).next().next().html("用户名在6到12位之间")
+        $(this).next().next().html("用户名必须6位")
         $(this).next().next().css("color","red")
         b=false;
     }else{
@@ -47,7 +47,7 @@ $(".first :password").blur(function (){
         $(this).next().next().html("密码不能为空");
         b=false;
     }else if(!reg.test($(this).val())){
-        $(this).next().next().html("密码必须以字母开头并在6到12位之间")
+        $(this).next().next().html("密码必须6位")
         $(this).next().next().css("color","red")
         b=false;
     }else{
